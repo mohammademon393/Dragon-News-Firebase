@@ -12,7 +12,7 @@ const Navbar = () => {
                 <NavLink to={'/career'}>Career</NavLink>
             </div>
             <div className="nav-right flex gap-5">
-                <img src={user} alt="" />
+                <img className='rounded-full' src={user} alt="" />
                 <Link to={'/auth/login'} className='btn btn-primary px-10'>Login</Link>
             </div>
         </div>

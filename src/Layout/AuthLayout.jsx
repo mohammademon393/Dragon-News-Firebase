@@ -1,9 +1,12 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 
 const AuthLayout = () => {
     return (
-        <div>
-            Auth
+        <div className='bg-base-200 min-h-screen'>
+            <header className='w-11/12 mx-auto py-4'>
+                <Navbar></Navbar>
+            </header>
         </div>
     );
 };
